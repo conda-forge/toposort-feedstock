@@ -1,4 +1,4 @@
-{% set version = "1.5" %}
+{% set version = "1.6" %}
 
 package:
   name: toposort
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/t/toposort/toposort-{{ version }}.tar.gz
-  sha256: dba5ae845296e3bf37b042c640870ffebcdeb8cd4df45adaa01d8c5476c557dd
+  sha256: a7428f56ef844f5055bb9e9e44b343983773ae6dce0fe5b101e08e27ffbd50ac
 
 build:
-  number: 3
+  number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -29,7 +29,7 @@ about:
   license: Apache-2.0
   license_file: LICENSE.txt
   license_family: APACHE
-  summary: 'Implements a topological sort algorithm'
+  summary: Implements a topological sort algorithm
 
 extra:
   recipe-maintainers:
