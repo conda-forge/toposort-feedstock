@@ -1,4 +1,4 @@
-{% set version = "1.8" %}
+{% set version = "1.9" %}
 
 package:
   name: toposort
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/t/toposort/toposort-{{ version }}.tar.gz
-  sha256: b1e89996c43daaf0e03805d33df22333c99c9d36715b188dea0e551ce2f1cd81
+  sha256: f41a34490d44934b533a7bdaff979ee8a47203fd2d8a746db83f2d5ab12458b9
 
 build:
   number: 0
