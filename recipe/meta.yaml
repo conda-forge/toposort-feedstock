@@ -9,7 +9,7 @@ source:
   sha256: f41a34490d44934b533a7bdaff979ee8a47203fd2d8a746db83f2d5ab12458b9
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -29,7 +29,7 @@ test:
     - pip
 
 about:
-  home: https://bitbucket.org/ericvsmith/toposort
+  home: https://gitlab.com/ericvsmith/toposort
   license: Apache-2.0
   license_file: LICENSE.txt
   license_family: APACHE
