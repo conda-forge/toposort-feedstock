@@ -1,7 +1,7 @@
 About toposort
 ==============
 
-Home: https://bitbucket.org/ericvsmith/toposort
+Home: https://gitlab.com/ericvsmith/toposort
 
 Package license: Apache-2.0
 
