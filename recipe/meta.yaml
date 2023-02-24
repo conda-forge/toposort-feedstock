@@ -29,7 +29,7 @@ test:
     - pip
 
 about:
-  home: https://bitbucket.org/ericvsmith/toposort
+  home: https://gitlab.com/ericvsmith/toposort
   license: Apache-2.0
   license_file: LICENSE.txt
   license_family: APACHE
