@@ -1,15 +1,16 @@
-{% set version = "1.9" %}
+{% set name = "toposort" %}
+{% set version = "1.10" %}
 
 package:
-  name: toposort
+  name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/t/toposort/toposort-{{ version }}.tar.gz
-  sha256: f41a34490d44934b533a7bdaff979ee8a47203fd2d8a746db83f2d5ab12458b9
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/toposort-{{ version }}.tar.gz
+  sha256: bfbb479c53d0a696ea7402601f4e693c97b0367837c8898bc6471adfca37a6bd
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -41,3 +42,4 @@ extra:
     - jakirkham
     - johanneskoester
     - ocefpaf
+    - dlaehnemann
