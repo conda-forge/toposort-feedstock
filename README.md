@@ -1,11 +1,11 @@
-About toposort
-==============
+About toposort-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/toposort-feedstock/blob/main/LICENSE.txt)
 
 Home: https://gitlab.com/ericvsmith/toposort
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/toposort-feedstock/blob/main/LICENSE.txt)
 
 Summary: Implements a topological sort algorithm
 
@@ -144,6 +144,7 @@ Feedstock Maintainers
 =====================
 
 * [@bgruening](https://github.com/bgruening/)
+* [@dlaehnemann](https://github.com/dlaehnemann/)
 * [@jakirkham](https://github.com/jakirkham/)
 * [@johanneskoester](https://github.com/johanneskoester/)
 * [@ocefpaf](https://github.com/ocefpaf/)
